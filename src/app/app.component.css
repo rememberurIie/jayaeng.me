@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+body{
+    padding-right: 5%;
+    padding-left: 5%;
+    font-family: "Reddit Sans", sans-serif;
+    background-image: url("https://cdn.discordapp.com/attachments/763777898204364820/1223602442281811998/seamless-pattern-of-funny-colorful-doodle-lines-a-creative-artistic-background-in-a-minimalist-style-for-children-or-a-fashionable-design-with-basic-shapes-memphis-style-vector.png?ex=66489813&is=66474693&hm=34d1b113b05438b820841859adad7a2063f24c2dd65a949b7fd856484c23aee1&");
+}
+div.container{
+    border-radius: 20px;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: white;
+}
+
+div.profilepic img#rectangle{
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+}
+
+div.profilepic img#square{
+    margin-top: -11%;
+    margin-bottom: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    width: 20%;
+    height: auto;
+    background-position: 100%;
+}
+
+div.text p#name{
+    text-align: center;
+    font-size: 30px;
+}
