@@ -1,38 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 
 body{
-    padding-right: 5%;
-    padding-left: 5%;
+    margin: 40px 20% 40px 20%;
     font-family: "Reddit Sans", sans-serif;
-    background-image: url("https://cdn.discordapp.com/attachments/763777898204364820/1223602442281811998/seamless-pattern-of-funny-colorful-doodle-lines-a-creative-artistic-background-in-a-minimalist-style-for-children-or-a-fashionable-design-with-basic-shapes-memphis-style-vector.png?ex=66489813&is=66474693&hm=34d1b113b05438b820841859adad7a2063f24c2dd65a949b7fd856484c23aee1&");
+    background-image: url("https://img2.pic.in.th/pic/seamless-pattern-of-funny-colorful-doodle-lines-a-creative-artistic-background-in-a-minimalist-style-for-children-or-a-fashionable-design-with-basic-shapes-memphis-style-vector.png");
 }
-div.container{
+
+@media screen and (max-width: 800px) {
+    body {
+        margin: 40px 8% 40px 8%;
+    }
+}
+
+@media screen and (min-width: 574px) {
+    .card#edu {
+        height: 340px;
+    }
+}
+
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-top: 30px;
     border-radius: 20px;
-    padding-top: 2%;
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: white;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px 1px #dadada;
+    
 }
 
-div.profilepic img#rectangle{
-    border-radius: 20px;
-    width: 100%;
-    height: auto;
+.card-text#name{
+    margin-top: 8px;
 }
 
-div.profilepic img#square{
-    margin-top: -11%;
-    margin-bottom: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 100%;
-    width: 20%;
-    height: auto;
-    background-position: 100%;
+img#rectangle{
+    float: left;
+    width: 5rem;
+    border-radius: 20%;
+    margin-right: 20px;
 }
 
-div.text p#name{
-    text-align: center;
-    font-size: 30px;
-}
+.card:hover {
+    transform: scale(1.05);
+  }
+  .card {
+    transition: transform 0.2s;
+  }
