@@ -41,6 +41,7 @@ img#rectangle{
 
 .card:hover {
     transform: scale(1.05);
+    box-shadow: 0 0 20px 1px #ff9ec7;
   }
   .card {
     transition: transform 0.2s;
