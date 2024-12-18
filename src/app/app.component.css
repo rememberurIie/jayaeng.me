@@ -12,9 +12,21 @@ body{
     }
 }
 
-@media screen and (min-width: 574px) {
+@media screen and (max-width: 1054px) {
     .card#edu {
-        height: 340px;
+        height: 390px;
+    }
+    .card#skill {
+        height: 390px;
+    }
+}
+
+@media screen and (min-width: 1054px) {
+    .card#edu {
+        height: 320px;
+    }
+    .card#skill {
+        height: 320px;
     }
 }
 
