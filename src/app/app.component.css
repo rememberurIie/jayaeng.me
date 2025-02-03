@@ -12,21 +12,91 @@ body{
     }
 }
 
+.card#edu {
+    height: 315px;
+}
+.card#skill {
+    height: 315px;
+}
+
 @media screen and (max-width: 1054px) {
     .card#edu {
-        height: 390px;
+        height: 337px;
     }
     .card#skill {
-        height: 390px;
+        height: 337px;
     }
 }
 
-@media screen and (min-width: 1054px) {
+@media screen and (max-width: 966px) {
     .card#edu {
-        height: 320px;
+        height: 360px;
     }
     .card#skill {
-        height: 320px;
+        height: 360px;
+    }
+}
+
+@media screen and (max-width: 932px) {
+    .card#edu {
+        height: 382px;
+    }
+    .card#skill {
+        height: 382px;
+    }
+}
+
+@media screen and (max-width: 924px) {
+    .card#edu {
+        height: 403px;
+    }
+    .card#skill {
+        height: 403px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .card#edu {
+        height: 335px;
+    }
+    .card#skill {
+        height: 335px;
+    }
+}
+
+@media screen and (max-width: 695px) {
+    .card#edu {
+        height: 360px;
+    }
+    .card#skill {
+        height: 360px;
+    }
+}
+
+@media screen and (max-width: 671px) {
+    .card#edu {
+        height: 380px;
+    }
+    .card#skill {
+        height: 380px;
+    }
+}
+
+@media screen and (max-width: 664px) {
+    .card#edu {
+        height: 403px;
+    }
+    .card#skill {
+        height: 403px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .card#edu {
+        height: auto;
+    }
+    .card#skill {
+        height: auto;
     }
 }
 
@@ -51,9 +121,22 @@ img#rectangle{
     margin-right: 20px;
 }
 
+@keyframes gradientShadow {
+    0% {
+      box-shadow: 0 0 20px 5px #ff9ec7; /* Pastel Pink */
+    }
+    50% {
+      box-shadow: 0 0 20px 5px #d1b3ff; /* Pastel Violet */
+    }
+    100% {
+      box-shadow: 0 0 20px 5px #ffb3b3; /* Pastel Red */
+    }
+  }
+
+
 .card:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 20px 1px #ff9ec7;
+    animation: gradientShadow 3s infinite alternate;
   }
   .card {
     transition: transform 0.2s;
